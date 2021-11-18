@@ -10,7 +10,7 @@ mroz = mroz[mroz[6] > 0]
 inlf = mroz[0]     # =1 if in labor force, 1975
 hours = mroz[1]  # hours worked, 1975
 kidslt6 = mroz[2]                  # kids < 6 years
-kidsge6 = mroz[3]                 # kids 6-18
+kidsgt6 = mroz[3]                 # kids 6-18
 age = mroz[4]                    # woman's age in yrs
 educ = mroz[5]  # years of schooling
 wage = mroz[6]                       # estimated wage from earns., hours
